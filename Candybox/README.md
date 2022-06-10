@@ -1,29 +1,24 @@
 # Candybox
 
-This template should help get you started developing with Vue 3 in Vite.
+## Desscription
 
-## Recommended IDE Setup
+โปรเจคเว็บแอปพลิเคชันสำหรับสั่งการบ้าน / ส่งการบ้านของนักศึกษามหาวิทยาลัย ประกอบด้วยฟังก์ชั่น ดังนี้
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ -> การดึงรายวิชาจาก Enrollment Database โดยอัตโนมัติ
+ -> ระบบ Homework Card ที่จะแสดงการบ้าน และ Assignment ที่ได้รับมอบหมาย รวมทั้ง Deadline timer ที่นับจากเซ็ตติ้งของอาจารย์ รวมถึงการจัดเรียง Card ตามเปอร์เซ็นต์ความสำเร็จ / Deadline 
+ -> ระบบจับกลุ่ม + บอร์ดอัพเดทงานในกลุ่ม เพื่อรองรับ Assignment แบบกลุ่ม
+ -> (อาจารย์) ระบบสร้าง Assignment สำหรับรายบุคคล/กลุ่ม รวมถึงระบบรับ Assignment ที่นักศึกษาทำการส่งมาพร้อมเปลี่ยนชื่อไฟล์ตามฟอร์เม็ตหากต้องการ
+ -> (อาจารย์) ระบบการลงคะแนนโดยลิงค์กับ spreadsheet 
+ -> ระบบ Admin สำหรับการแต่งตั้ง / เพิกถอนสิทธิ์บัญชีอาจารย์ 
 
-## Customize configuration
+## Technology Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Front-End : Vue.js
+Back-end : Laravel/Nodejs (TBD)
+Database : MySQL -> phpMyadmin
+Test : Laravel/Postman
 
-## Project Setup
 
-```sh
-npm install
-```
+## Update
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+01/6/2022 : Start the project
