@@ -16,6 +16,7 @@
 * **Front-End** : Vue.js
 * **Back-end** : Laravel/Nodejs (TBD)
 * **Database** : MySQL -> phpMyadmin
+* **Cloud** : AWS / Google Cloud (TBD)
 * **Test** : Laravel/Postman
 
 
